@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Keywords, Questions, and Answers</title>
+</head>
+<body>
+    <h1>Question/Answer Keywords</h1>
+    <input type="file" id="fileInput" multiple>
+    <button id="saveButtonColor">Save to PDF (Color)</button>
+    <button id="saveButtonGrayscale">Save to PDF (Grayscale)</button>
+    <table id="qaTable">
+        <thead>
+            <tr>
+                <th>Keyword</th>
+                <th>Question</th>
+                <th>Answer</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.13/jspdf.plugin.autotable.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

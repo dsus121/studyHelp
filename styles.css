@@ -1,0 +1,36 @@
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Increase font size */
+    color: #f0f0f0; /* Slightly darkened white text color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333; /* Darker background color */
+    color: #f0f0f0; /* Slightly darkened white text color */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #f0f0f0; /* Slightly darkened white text color */
+    }
+    th {
+        background-color: #444444; /* Darker background color for dark mode */
+    }
+    table, th, td {
+        border-color: #444444;
+    }
+}
